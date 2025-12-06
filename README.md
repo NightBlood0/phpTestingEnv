@@ -1,15 +1,3 @@
-# Moodle Docker Setup
-
-This project provides a quick and easy way to set up and debug a Moodle environment using Docker and Docker Compose. 
-
-## Version
-
-- **Moodle Version**: 4.4.5
-
-## Vulnerability Information
-
-Please note that this setup is **vulnerable to CVE-2025-26529**.
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
