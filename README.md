@@ -17,10 +17,10 @@ Before you begin, ensure you have the following installed on your system:
 - [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - [Visual Studio Code (VS Code)](https://code.visualstudio.com/) (Recommended for development)
+- [Container Tools (VS Code Extension)](Recommended for development)
 
 ## Getting Started
-
-Follow these steps to get your Moodle environment up and running:
+Follow these steps to get your PHP project running.
 
 ### 1. Clone the repository
 
@@ -33,15 +33,16 @@ git clone <repository-url>
 
 ### Download the moodle source code 
 ```bash
-wget https://github.com/moodle/moodle/archive/refs/tags/v4.4.5.zip
-unzip v4.4.5.zip 
-mv moodle-4.4.5 src
+wget <project download URL>
+unzip <project download URL> 
+mv project.zip src
 ```
 
 ```bash
-docker-compose up -d
+chmod 777 src
 ```
 ```bash
-chmod 777 moodledata
+docker-compose up -d
 ```
-# moodleTestingEnv
+
+
