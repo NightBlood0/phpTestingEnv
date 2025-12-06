@@ -7,7 +7,7 @@ services:
       - "80:80"
     volumes:
       - ./src:/var/www/html/
-      - ./moodledata:/var/www/moodledata
+    
     environment:
       - PHP_XDEBUG_ENABLED=1
     extra_hosts:
