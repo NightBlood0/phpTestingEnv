@@ -19,7 +19,7 @@ git clone <repository-url>
 ```
 
 
-### Download the moodle source code 
+### Download the project source code 
 ```bash
 wget <project download URL>
 unzip <project download URL> 
